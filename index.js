@@ -48,8 +48,8 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'lic',
-        message: "What lic are you using?",
+        name: 'license',
+        message: "What license are you using?",
         choices: ['MIT', 'APACHE', "BSD", 'Mozilla']
     }
 ];
@@ -60,7 +60,9 @@ init();
 
 // TODO: Create a function to write README file using the user input from our choices above
 function writeToFile(fileName, data) {
+    
     return fd.writeFileSync(path.join(process.cwd(), fileName), data)
+    
 }
 
 // TODO: Create a function to initialize app

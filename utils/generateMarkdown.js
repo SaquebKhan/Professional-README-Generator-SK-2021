@@ -18,6 +18,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
+
 ${data.description}
 
 ## Table of Contents
