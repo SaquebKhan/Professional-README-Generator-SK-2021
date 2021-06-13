@@ -28,8 +28,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'intallation',
-        message: "What intallation does the user need to know for the project?"
+        name: 'installation',
+        message: "What installation does the user need to know for the project?"
     },
     {
         type: 'input',
